@@ -1,0 +1,40 @@
+
+*{
+
+    box-sizing: border-box;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px rgb(59, 59, 212);
+}
+
+body {
+background-image: url("images/thunderstorm.webp.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+h3{
+    font-weight: bold;
+}
+.forecast{
+
+    font-size: 0.9em;
+}
+span{
+    font-size: 1em;
+}
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+  opacity: 0.9;
+  height: 30%;
+}
